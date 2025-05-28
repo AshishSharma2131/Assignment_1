@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Profile Page</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+         <h1>Welcome to My Profile!</h1>
+     </header>
+     <main>
+        <section id="profile-intro">
+            <img src="my profile photo.jpg" alt="My Profile Picture" class="profile-img">
+            <h2>Hello, I'm Ashish Sharma!</h2>
+            <p>Hii, there! I am Ashish Sharma , currently studying at <b>IIT Kanpur</b> in <b>Mechanical department</b>. My desire is to become a good Web developer.</p> 
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies & Interests</h2>
+            <ul>
+            <li>Reading novels and non-fiction books</li>
+            <li>Hiking and exploring nature trails</li>
+            <li>Playing [your favorite sport/game]</li>
+            <li>Learning new programming languages</li>
+            <li>Cooking and trying new recipes</li>
+            </ul>
+        </section>
+        <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-item">
+    <h3>Basic Calculator Web App</h3>
+    <p>
+        Developed a fully functional basic calculator using HTML for its structure, CSS for a clean and responsive design
+        (utilizing CSS Grid for button layout), and JavaScript for all the interactive logic, including handling number inputs,
+        arithmetic operations, and display updates. This project demonstrates proficiency in client-side scripting and UI development.
+    </p>
+    <a href="calculator/calculator.html" target="_blank">View Calculator</a>
+</div>
+        </section>
+         <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="aasish2131@gmail.com">aasish2131@gmail.com</a> </p>
+        <p>LinkedIn: <a href="https://in.linkedin.com/in/aasiash-sharma-66086131b" target="_blank">https://in.linkedin.com/in/aasiash-sharma-66086131b</a> </p>
+        <p>GitHub: <a href="https://github.com/AshishSharma2131" target="_blank">https://github.com/AshishSharma2131</a> </p>
+        <p>Instagram: <a href="https://www.instagram.com/assharma3059?igsh=MTNhM2trYXJsZzJqag" target="blank">https://www.instagram.com/assharma3059?igsh=MTNhM2trYXJsZzJqag</a></p>
+        </section>
+        <section id="skills-courses">
+        <h2>Skills & Courses</h2>
+        <div id="skills-content">
+            <p><strong>Skills:</strong> HTML, CSS, Basic JavaScript, Git, </p>
+            <p><strong>Courses:</strong> Introduction to Web Development, </p>
+
+            <div id="more-skills-content" style="display: none;">
+                <p><strong>Advanced Skills:</strong> Responsive Design, DOM Manipulation, [More Skill 3], [More Skill 4]</p>
+                <p><strong>Additional Courses:</strong> Front-end Frameworks Overview, [More Course 3], [More Course 4]</p>
+            </div>
+        </div>
+        <button id="read-more-btn">Read More</button> 
+        <button id="edit-skills-btn">Edit Skills</button> 
+
+        <div id="edit-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3>Edit Skills & Courses</h3>
+                <textarea id="edit-textarea" rows="10" cols="50"></textarea>
+                <button id="save-edit-btn">Save Changes</button>
+            </div>
+        </div>
+    </section>
+     </main>
+    
+
+     <script src="script.js"></script>
+</body>
+</html>
